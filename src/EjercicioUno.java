@@ -8,14 +8,14 @@ public class EjercicioUno {
         int edad;
 
         System.out.println("Escribe tu nombre");
-            String Nombre=lector.nextLine();
+        String Nombre=lector.nextLine();
         System.out.println("Escribe tu edad");
-            edad=lector.nextInt();
+        edad=lector.nextInt();
         //consumimos el "Enter" que quedó en memoria
         lector.nextLine();
 
         System.out.println("Escribe tu ciudad");
-            String Ciudad=lector.nextLine();
+        String Ciudad=lector.nextLine();
 
 
 
