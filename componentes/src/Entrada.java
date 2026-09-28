@@ -28,5 +28,22 @@ public class Entrada {
         boolean acierto=true;
         System.out.println("numero int: "+edad);
         System.out.println("boolean acierto es: "+acierto);
+
+        /*Segun la forma de construirse: primitivas (solo guarda un valor)
+        compleja (ademas del valor y la funcionalidad)
+        primitivos: int,double,char
+        complejos: todos aquellos que empiecen con MAYUS
+        se puede cambiar una primitiva a compleja
+     */
+        double altura = 1.83;
+        Double AlturaCompleja=altura;
+
+    //segun mutabilidad/no mutable (constante)
+        //para hacerlo no mutable que no pueda cambiar añade final
+           // String dni = "123123A";
+            final String dni = "123123A";
+            //la buena practica hace que tener el nombre en MAYUS (DNI) son constantes
+
+        //ejemplo
     }
 }
